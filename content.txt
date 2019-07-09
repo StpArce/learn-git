@@ -4,3 +4,16 @@ git commit -m <message> 注释
 
 git status 掌握工作区状态
 git diff 查看修改
+
+head 指向当前版本 git reset --hard commit_id
+git log 可以查看历史
+git reflog 查看命令历史
+
+git 跟踪改变而不是文件
+
+git checkout -- file 可以撤回工作区最近的操作。
+git reset HEAD <file> 允许撤回暂存区
+git reset HEAD <file> 允许回退版本库
+
+git rm 可以删除一个文件。
+如果误删除，可以用git checkout 来恢复到最新版本（版本库）

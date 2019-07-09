@@ -1,3 +1,6 @@
 git init #初始化仓库
 git add <file> 添加文件，可多次多个
 git commit -m <message> 注释
+
+git status 掌握工作区状态
+git diff 查看修改
